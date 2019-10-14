@@ -8,6 +8,7 @@
     --footer:#333333;
     --font-brand:calibri;
     --font-specialy:gabriola;
+    --font-button:Arial;
 }
 /**----------BASE------------------**/
 .container{
@@ -48,7 +49,7 @@ header .container .logo h1 a img{
 }
 
 .menu ul{
-    margin-top: 20px;
+    margin-top: 28px;
 }
 .menu li {
     display: inline-block;
@@ -64,8 +65,8 @@ header .container .logo h1 a img{
     font-family: Arial;
 }
 .menu li a:hover {
-    background-color: orange;
-    color: white;
+    background-color: #b7faff;
+    color: black;
     cursor: pointer;
 }
 
@@ -74,7 +75,7 @@ header .container .logo h1 a img{
     position: absolute;
     padding: 0;
     margin: 0;
-    top: 25px;
+    top: 10px;
 }
 .menu li:hover ul{
     display: block;
@@ -93,3 +94,44 @@ header .container .logo h1 a img{
 
 /**---------- END HEADER2--------------**/
 /**---------- background--------------**/
+.main {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.main img{
+    width:100%;
+    overflow-x: unset;
+}
+
+.brand {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    line-height: 1.5cm;
+}
+.brand h2{
+    font-weight: 900;
+    font-size: 40px;
+    font-family: var(--font-brand);
+}
+.brand h4{
+    font-size: 28px;
+    font-family: var(--font-specialy);
+}
+.brand button{
+    font-size: 15px;
+    border-radius: 5px;
+    border: solid 1px white;
+    padding: 15px 30px;
+    cursor: pointer;
+    background-color: transparent;
+    color: white;
+    font-family: var(--font-button);
+}
+.button:hover{
+    background-color: white;
+    color: yellow;
+}
+/**---------- END background--------------**/
