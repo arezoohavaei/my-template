@@ -1,0 +1,95 @@
+:root{
+    --header:#2D2D2F;
+    --services:#F7F7F7;
+    --feaurure:#F1F1F1;
+    --awosem:#2D2D2F;
+    --customer:#F1F1F1;
+    --blog:#F7F7F7;
+    --footer:#333333;
+    --font-brand:calibri;
+    --font-specialy:gabriola;
+}
+/**----------BASE------------------**/
+.container{
+    width: 1200px;
+    margin: auto;
+}
+a{
+    text-decoration: none;
+}
+.clearfix{
+    clear: both;
+    float: none;
+}
+
+/**---------- END BASE--------------**/
+
+/**----------  HEADER1--------------**/
+header{
+    background-color: var(--header);
+    width:1600px;
+    height:100px;
+}
+header .container{}
+header .container .logo{
+    float: left;
+    width: 50%;
+}
+header .container .logo h1{}
+header .container .logo h1 a{}
+header .container .logo h1 a img{
+    width: 70px;
+    margin-top: 20px;
+}
+/*-------header2-----*/
+.menu{
+    float: right;
+    width: 50%;
+}
+
+.menu ul{
+    margin-top: 20px;
+}
+.menu li {
+    display: inline-block;
+    position: relative;
+
+}
+.menu li a{
+    text-decoration: none;
+    color: white;
+    padding: 5px 15px;
+    transition: all ease-in-out 0.7s;
+    font-size: 10px;
+    font-family: Arial;
+}
+.menu li a:hover {
+    background-color: orange;
+    color: white;
+    cursor: pointer;
+}
+
+.menu li ul{
+    display: none;
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    top: 25px;
+}
+.menu li:hover ul{
+    display: block;
+}
+.menu li ul li{
+    display: block;
+    position: relative;
+}
+.menu li ul li a{
+    display: block;
+    width: 100%;
+    background-color: aliceblue;
+    border: 1px solid white;
+    color: #2D2D2F;
+}
+
+/**---------- END HEADER2--------------**/
+/**---------- background--------------**/
