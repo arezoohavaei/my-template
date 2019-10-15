@@ -28,7 +28,7 @@ a{
 /**----------  HEADER1--------------**/
 header{
     background-color: var(--header);
-    width:1600px;
+    /*width:1400px;*/
     height:100px;
 }
 header .container{}
@@ -49,7 +49,7 @@ header .container .logo h1 a img{
 }
 
 .menu ul{
-    margin-top: 28px;
+    margin-top: 30px;
 }
 .menu li {
     display: inline-block;
@@ -130,8 +130,49 @@ header .container .logo h1 a img{
     color: white;
     font-family: var(--font-button);
 }
-.button:hover{
-    background-color: white;
-    color: yellow;
+button:hover{
+    background-color: var(--header);
+    color: white;
+    border: 1px white  double;
 }
 /**---------- END background--------------**/
+/**----------content-------------------**/
+.content{
+    background-color: var(--services);
+}
+.bheader{
+    text-align: center;
+}
+.bheader h3{
+    padding-top: 50px;
+    font-weight: bold;
+}
+.bheader h5{
+    margin-top: 10px;
+}
+
+.box{
+    width:230px;
+    height: 500px;
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px;
+}
+.box img{
+    padding:100px;
+}
+.box hr{
+    width: 50px;
+}
+.box h4{
+    text-align: center;
+    padding-top: 10px;
+    font-weight: bold;
+
+}
+.box p{
+    text-align: center;
+    padding-top: 10px;
+}
+
+/**---------- END content--------------**/
