@@ -188,3 +188,68 @@ button:hover{
 }
 
 /**---------- END content--------------**/
+/**----------  feature-----------------**/
+.feature{
+    background-color: var(--feaurure);
+}
+.cheader {
+    text-align: center;
+}
+.cheader h3{
+    padding-top: 60px;
+    font-family: var(--font-brand);
+    font-weight: 900;
+    font-size: 18px;
+}
+.cheader h5{
+    margin-top: 20px;
+    font-family:var(--font-specialy) ;
+    color: grey;
+    font-size: 23px;
+}
+
+.ccontent{
+    width: 1000px;
+    margin: auto;
+    padding-top: 20px;
+}
+.ccontent img{
+    width: 980px;
+}
+.ccontent  p{
+    text-align: center;
+    font-family: var(--font-brand);
+    color: grey;
+    font-size: 19px;
+    line-height: 25px;
+}
+ .start{
+    background-color: #48474D;
+    font-weight: bold;
+    height: 30px;
+    border-radius: 5px;
+    margin-left: 300px;
+
+}
+.start a {
+    color: white;
+}
+.start a:hover {
+    color: yellow;
+    background-color: #aaaa00;
+}
+.view{
+    background-color:#82C5BE;
+    font-weight: bold;
+    height: 30px;
+    border-radius: 5px;
+}
+.view a{
+    color: white;
+}  .view a:hover{
+    background-color: #aaaa00;
+    color: black; ;
+}
+/**---------- END feature--------------**/
+
+
