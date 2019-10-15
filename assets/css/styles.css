@@ -139,6 +139,7 @@ button:hover{
 /**----------content-------------------**/
 .content{
     background-color: var(--services);
+    height: 450px;
 }
 .bheader{
     text-align: center;
@@ -146,33 +147,44 @@ button:hover{
 .bheader h3{
     padding-top: 50px;
     font-weight: bold;
+    font-family: var(--font-brand);
+    color: #2D2D2F;
+
 }
 .bheader h5{
     margin-top: 10px;
+    font-family: var(--font-specialy);
+    font-size: 25px ;
+    color: grey;
 }
 
 .box{
-    width:230px;
-    height: 500px;
+    width:20%;
     display: inline-block;
-    margin-top: 10px;
+    margin: 5px 10px;
     padding: 10px;
 }
 .box img{
-    padding:100px;
+    padding:70px 70px 10px 90px;
 }
 .box hr{
-    width: 50px;
+    width: 30px;
 }
 .box h4{
     text-align: center;
     padding-top: 10px;
     font-weight: bold;
+    font-family: var(--font-brand);
+    color: #2D2D2F;
 
 }
 .box p{
     text-align: center;
     padding-top: 10px;
+    font-family: var(--font-brand);
+    color: grey;
+    font-size: 13px;
+    line-height: 17px;
 }
 
 /**---------- END content--------------**/
