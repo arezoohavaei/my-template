@@ -191,6 +191,7 @@ button:hover{
 /**----------  feature-----------------**/
 .feature{
     background-color: var(--feaurure);
+    height: 900px;
 }
 .cheader {
     text-align: center;
@@ -223,33 +224,37 @@ button:hover{
     font-size: 19px;
     line-height: 25px;
 }
- .start{
+
+ #start{
     background-color: #48474D;
-    font-weight: bold;
-    height: 30px;
+    height: 40px;
     border-radius: 5px;
-    margin-left: 300px;
+    margin-left: 310px;
+     font-family: var(--font-button);
+     border: none;
+     margin-top: 30px;
+     font-size: 15px;
+ }
+#start a{
+    color: white;
+    padding: 20px 20px 20px 20px;
+}
+
+#view{
+    background-color:#82C5BE;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-size: 15px;
+    margin: 10px;
+}
+#view a{
+    color: white;
+    padding: 20px 20px 20px 20px;
 
 }
-.start a {
-    color: white;
-}
-.start a:hover {
-    color: yellow;
-    background-color: #aaaa00;
-}
-.view{
-    background-color:#82C5BE;
-    font-weight: bold;
-    height: 30px;
-    border-radius: 5px;
-}
-.view a{
-    color: white;
-}  .view a:hover{
-    background-color: #aaaa00;
-    color: black; ;
-}
+
 /**---------- END feature--------------**/
 
 
