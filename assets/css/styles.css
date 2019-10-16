@@ -333,67 +333,113 @@ button:hover{
 .customer{
     background-color: var(--customer);
 }
+.talk{
+    width:400px;
+    height: 100px;
+    background-color: blanchedalmond;
+    position: relative;
+    left:75%;
+    bottom: 100px;
 
+}
+.talk:before{
+     content: '';
+     position: absolute;
+     right: 100%;
+     top: 20px;
+     border-top: 10px solid transparent;
+     border-right: 8px solid blanchedalmond;
+     border-bottom: 10px solid transparent;
+ }
+#talk2{
+    width:300px;
+    height: 100px;
+    background-color: brown;
+    position: relative;
+    left:150px;
+    bottom: 10px;
+}
+#talk2:before{
+    content: '';
+    position: absolute;
+    left: 100%;
+    top: 20px;
+    border-top: 10px solid transparent;
+    border-left: 8px solid brown;
+    border-bottom: 10px solid transparent;
+}
 .customer .dheader{
     text-align: center;
     padding-top: 50px;
     line-height: 20px;
 }
 
-.customer .dheader h3{}
-.customer .dheader h5{}
+.customer .dheader h3{
+    font-family: var(--font-brand);
+    font-weight: 900;
+    color: var(--header);
+    font-size: 20px;
+    line-height: 1cm;
+}
+.customer .dheader h5{
+    font-family: var(--font-specialy);
+    font-size: 20px;
+    color: grey;
+}
 
 .customer .case{
     width: 900px;
 }
+.customer .case .hcustomer{
+    width: 5px;
+    height: 500px;
+    color: #b7faff;
+    border-radius: 5px;
+    position: relative;
+    left:15%;
+    bottom:220px;
+}
 
-.customer .case h5{}
-.customer .case h6{}
+.customer .case .name{
+    position: relative;
+    left: 40%;
+    bottom: 520px;
+
+}
+.customer .case .second{
+    position: relative;
+    left: 42%;
+    bottom: 510px;
+}
 .customer .case img{
     position: relative;
-    left: 60%;
-    top: 90%;
+    left: 62%;
+    z-index: 1;
+    bottom: 100px;
 }
-.customer .case h5 {
+.customer .case .nazar {
+    width: 300px;
+   position: relative;
+    left: 75%;
+    bottom: 505px;
+    z-index: 1;
 }
-.customer .case p{}
-.customer .case .goftego{
-    position: relative;
-    left: 40%;
-    bottom: -89px;
-    margin: 48px -30px;
-}
-.customer .case .name{
+.customer .case .nikolas {
+    width: 300px;
     position: absolute;
-    left: 40%;
-    margin: 58px -79px;
+    left: 15%;
+    z-index: 1;
 }
-
-.customer .case .nazar{
+.customer .case .name2 {
     position: relative;
-    left:650px;
-    bottom: 70px;
-    width: 30%;
-}
-
-
-.customer .nikolas{
-    position: relative;
-    left:146px;
-    bottom: -71px;
-    width: 30%;
-}
-.customer .nik{
-    position: relative;
-    left: 647px;
-    bottom: 57px;
-
+    left: 74%;
+    bottom:200px;
 
 }
-.customer .semat{
+.customer .case .semat {
     position: relative;
-    left: 647px;
-    bottom: 50px;
+    left: 74%;
+    bottom:200px;
 
 }
 /**---------- END customer--------------**/
