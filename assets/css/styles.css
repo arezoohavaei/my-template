@@ -329,5 +329,73 @@ button:hover{
     transition: all ease-in-out 0.8s; ;
 }
 /**---------- END awesome--------------**/
+/**----------  customer--------------**/
+.customer{
+    background-color: var(--customer);
+}
+
+.customer .dheader{
+    text-align: center;
+    padding-top: 50px;
+    line-height: 20px;
+}
+
+.customer .dheader h3{}
+.customer .dheader h5{}
+
+.customer .case{
+    width: 900px;
+}
+
+.customer .case h5{}
+.customer .case h6{}
+.customer .case img{
+    position: relative;
+    left: 60%;
+    top: 90%;
+}
+.customer .case h5 {
+}
+.customer .case p{}
+.customer .case .goftego{
+    position: relative;
+    left: 40%;
+    bottom: -89px;
+    margin: 48px -30px;
+}
+.customer .case .name{
+    position: absolute;
+    left: 40%;
+    margin: 58px -79px;
+}
+
+.customer .case .nazar{
+    position: relative;
+    left:650px;
+    bottom: 70px;
+    width: 30%;
+}
+
+
+.customer .nikolas{
+    position: relative;
+    left:146px;
+    bottom: -71px;
+    width: 30%;
+}
+.customer .nik{
+    position: relative;
+    left: 647px;
+    bottom: 57px;
+
+
+}
+.customer .semat{
+    position: relative;
+    left: 647px;
+    bottom: 50px;
+
+}
+/**---------- END customer--------------**/
 
 
