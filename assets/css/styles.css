@@ -279,9 +279,7 @@ button:hover{
 
 }
 .dcontent .left img{
-
-    margin-left: 300px;
-
+    margin: -5px 0 10px 310px;
 }
 .description{
     color: white;
@@ -295,7 +293,7 @@ button:hover{
     font-family: var(--font-brand);
     font-weight: 600;
     color: #B0B0B2;
-    margin: 0px 20px;
+    margin: 0 10px;
 }
 .description h5 {
     width: 200px;
@@ -316,14 +314,20 @@ button:hover{
 
 }
 .description button{
-    font-size: 15px;
+    font-size: 13px;
     border-radius: 5px;
-    border: solid 1px white;
+    border: solid 1px grey;
     padding: 15px 30px;
     cursor: pointer;
     background-color: transparent;
-    color: white;
-    margin: 40px;
+    color: grey;
+    margin: 1px 10px;
+}
+.description button:hover{
+    color: #b7faff;
+    font-family: var(--font-specialy);
+    transition: all ease-in-out 0.8s; ;
 }
 /**---------- END awesome--------------**/
+
 
