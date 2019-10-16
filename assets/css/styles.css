@@ -283,28 +283,39 @@ button:hover{
     margin-left: 300px;
 
 }
-.dcontent .description{
+.description{
     color: white;
     position: absolute;
-    bottom: 150px;
+    bottom: 170px;
     left: 20px;
-    top: 30px;
-}
-.dcontent .description h3{
+    top: 5px;
 
 }
-.dcontent .description h5 {
+.description h3{
+    font-family: var(--font-brand);
+    font-weight: 600;
+    color: #B0B0B2;
+    margin: 0px 20px;
+}
+.description h5 {
     width: 200px;
-    margin: 30px;
+    margin: 10px 10px;
+    font-family: var(--font-specialy);
+    font-size: 20px;
+    line-height: 20px;
+    color: grey;
+}
+.description p {
+    width: 250px;
+    line-height: 1.5;
+    margin: 40PX 10px;
+    font-family: var(--font-brand);
+    color: grey;
+    font-size: 15px;
+    text-align: left;
 
 }
-.dcontent .description p {
-    width: 200px;
-    line-height: 1.2;
-    margin: 50PX;
-
-}
-.dcontent .description button{
+.description button{
     font-size: 15px;
     border-radius: 5px;
     border: solid 1px white;
