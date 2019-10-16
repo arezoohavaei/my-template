@@ -256,5 +256,63 @@ button:hover{
 }
 
 /**---------- END feature--------------**/
+/**----------  awesome--------------**/
+.dcontent {
+    background-color: var(--awosem);
+    height: 600px;
+}
 
+
+.dcontent .right{
+    width: 50%;
+    position: relative;
+    top: 80px;
+    left: 600px;
+}
+.dcontent .right img{
+    margin: 3px;
+}
+.dcontent .left {
+    width: 50%;
+    position: relative;
+    bottom: 370px;
+
+}
+.dcontent .left img{
+
+    margin-left: 300px;
+
+}
+.dcontent .description{
+    color: white;
+    position: absolute;
+    bottom: 150px;
+    left: 20px;
+    top: 30px;
+}
+.dcontent .description h3{
+
+}
+.dcontent .description h5 {
+    width: 200px;
+    margin: 30px;
+
+}
+.dcontent .description p {
+    width: 200px;
+    line-height: 1.2;
+    margin: 50PX;
+
+}
+.dcontent .description button{
+    font-size: 15px;
+    border-radius: 5px;
+    border: solid 1px white;
+    padding: 15px 30px;
+    cursor: pointer;
+    background-color: transparent;
+    color: white;
+    margin: 40px;
+}
+/**---------- END awesome--------------**/
 
