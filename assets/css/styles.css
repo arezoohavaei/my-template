@@ -529,6 +529,77 @@ button:hover{
 
 /**---------- END customer--------------**/
 /**----------  blog--------------**/
+.blog{
+    background-color: var(--blog);
+    height: 600px;
+
+}
+.blog .box-one{
+    display: inline-block;
+    width: 250px;
+}
+.blog .box-one h3{
+    line-height: 42px;
+    font-family: var(--font-brand);
+    font-size: 18px;
+    font-weight: 900;
+
+
+}
+.blog .box-one h5{
+    margin-bottom: 80px;
+    font-family: var(--font-specialy);
+    font-size: 22px;
+    color: #A1A1A1;
+}
+
+.blog .box-one p{
+    margin-bottom: 40px;
+    line-height:25px;
+    font-size:15px ;
+    color: #A1A1A1;
+    font-family: var(--font-brand);
+}
+.blog .box-one button{
+    background-color: #80C7BC;
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+    color: white;
+    font-family: var(--font-button);
+
+}
+
+
+.blog .box-two{
+    width:294px;
+    height: 400px;
+    display: inline-block;
+    margin:75px 6px;
+    background-color: white;
+
+}
+.blog .box-two img{
+    width: 100%;
+
+}
+.blog .box-two h4{
+    text-align: left;
+    margin-left: 20px;
+    padding-top: 10px;
+    font-family: var(--font-brand);
+    font-size: 15px;
+    font-weight: 900;
+}
+.blog .box-two p{
+    padding-left: 20px;
+    line-height: 25px;
+    color: #B4C0BC;
+    font-family: var(--font-button);
+    font-size: 15px;
+    margin-top: 10px;
+}
+
 /**---------- END blog--------------**/
 
 
