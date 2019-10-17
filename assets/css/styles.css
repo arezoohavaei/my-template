@@ -601,5 +601,20 @@ button:hover{
 }
 
 /**---------- END blog--------------**/
+/**----------  footer----------------**/
+
+.footer{
+    background-color: var(--footer);
+    height: 60px;
+}
+.footer p{
+    text-align: center;
+    color: #a8b3b0;
+    padding-top: 20PX;
+    font-family: var(--font-button);
+    font-size: 12px;
+}
+/**---------- END footer--------------**/
+
 
 
