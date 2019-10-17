@@ -330,31 +330,46 @@ button:hover{
 }
 /**---------- END awesome--------------**/
 /**----------  customer--------------**/
-.customer{
-    background-color: var(--customer);
-}
 .talk{
-    width:400px;
+    width:420px;
     height: 100px;
-    background-color: blanchedalmond;
+    background-color: white;
     position: relative;
     left:75%;
     bottom: 100px;
 
 }
 .talk:before{
-     content: '';
-     position: absolute;
-     right: 100%;
-     top: 20px;
-     border-top: 10px solid transparent;
-     border-right: 8px solid blanchedalmond;
-     border-bottom: 10px solid transparent;
- }
-#talk2{
-    width:300px;
+    content: '';
+    position: absolute;
+    right: 100%;
+    top: 20px;
+    border-top: 10px solid transparent;
+    border-right: 8px solid white;
+    border-bottom: 10px solid transparent;
+}
+#talk3{
+    width:420px;
     height: 100px;
-    background-color: brown;
+    background-color: white;
+    position: relative;
+    left:75%;
+    bottom: 100px;
+
+}
+#talk3:before{
+    content: '';
+    position: absolute;
+    right: 100%;
+    top: 20px;
+    border-top: 10px solid transparent;
+    border-right: 8px solid white;
+    border-bottom: 10px solid transparent;
+}
+#talk2{
+    width:420px;
+    height: 100px;
+    background-color: white;
     position: relative;
     left:150px;
     bottom: 10px;
@@ -365,83 +380,155 @@ button:hover{
     left: 100%;
     top: 20px;
     border-top: 10px solid transparent;
-    border-left: 8px solid brown;
+    border-left: 8px solid white;
     border-bottom: 10px solid transparent;
+}
+.customer #horz{
+    width: 2px;
+    height: 600px;
+    border-radius: 3px;
+    top: 50px;
+}
+.customer{
+    background-color: var(--customer);
+    height: 900px;
 }
 .customer .dheader{
     text-align: center;
     padding-top: 50px;
     line-height: 20px;
 }
-
 .customer .dheader h3{
     font-family: var(--font-brand);
     font-weight: 900;
-    color: var(--header);
     font-size: 20px;
-    line-height: 1cm;
+    color: #333333;
 }
 .customer .dheader h5{
     font-family: var(--font-specialy);
     font-size: 20px;
-    color: grey;
+    line-height: 30px;
 }
-
 .customer .case{
     width: 900px;
-}
-.customer .case .hcustomer{
-    width: 5px;
-    height: 500px;
-    color: #b7faff;
-    border-radius: 5px;
-    position: relative;
-    left:15%;
-    bottom:220px;
-}
-
-.customer .case .name{
-    position: relative;
-    left: 40%;
-    bottom: 520px;
-
-}
-.customer .case .second{
-    position: relative;
-    left: 42%;
-    bottom: 510px;
 }
 .customer .case img{
     position: relative;
     left: 62%;
+    bottom: 550px;
     z-index: 1;
-    bottom: 100px;
 }
-.customer .case .nazar {
-    width: 300px;
+.customer .case .niko{
    position: relative;
-    left: 75%;
-    bottom: 505px;
-    z-index: 1;
+    bottom: 670px;
 }
-.customer .case .nikolas {
-    width: 300px;
-    position: absolute;
-    left: 15%;
-    z-index: 1;
-}
-.customer .case .name2 {
+
+.customer .case .name{
     position: relative;
-    left: 74%;
-    bottom:200px;
+    left: 42%;
+    bottom:500px;
+    font-family: var(--font-brand);
+    font-weight: 800;
+    color: #4B4B4B;
+}
+.customer .case .semat1{
+    position: relative;
+    left: 45%;
+    bottom: 495px;
+    font-family: var(--font-specialy);
+    color: grey;
+}
+.customer .case .nazar{
+    position: relative;
+    left:690px;
+    bottom: 620px;
+    width: 400px;
+    z-index: 1;
+    font-family: var(--font-specialy);
+    color: grey;
+    font-size: 21px;
+    line-height: 25px;
 
 }
-.customer .case .semat {
+.customer .nikolas{
     position: relative;
-    left: 74%;
-    bottom:200px;
-
+    left:80px;
+    width: 400px;
+    bottom: 570px;
+    z-index: 1;
+    font-family: var(--font-specialy);
+    color: grey;
+    font-size: 21px;
+    line-height: 25px;
 }
+.customer .nik{
+    position: relative;
+    left: 680px;
+    bottom: 730px;
+    font-family: var(--font-brand);
+    font-weight: 800;
+    color: #4B4B4B;
+}
+.customer .semat{
+    position: relative;
+    left: 680px;
+    bottom: 720px;
+    font-family: var(--font-specialy);
+    color: grey;
+}
+.customer .case #horz{
+    position: relative;
+    left: 150px;
+}
+.customer .case .talk{
+     position: relative;
+     bottom: 700px;
+ }
+.customer .case #talk2{
+    position: relative;
+    bottom: 780px;
+    left: 60px;
+}
+.customer .case #name1{
+    position: relative;
+    left: 42%;
+    bottom:651px;
+    font-family: var(--font-brand);
+    font-weight: 800;
+    color: #4B4B4B;
+}
+.customer .case #semat2{
+    position: relative;
+    left: 45%;
+    bottom: 650px;
+    font-family: var(--font-specialy);
+    color: grey;
+}
+.customer .case .img3{
+    position: relative;
+    left: 62%;
+    bottom: 718px;
+    z-index: 1;
+}
+
+.customer .case #nazar{
+    position: relative;
+    left:690px;
+    bottom: 780px;
+    width: 400px;
+    z-index: 1;
+    font-family: var(--font-specialy);
+    color: grey;
+    font-size: 21px;
+    line-height: 25px;
+}
+.customer .case #talk3{
+    position: relative;
+    bottom: 870px;
+}
+
 /**---------- END customer--------------**/
+/**----------  blog--------------**/
+/**---------- END blog--------------**/
 
 
